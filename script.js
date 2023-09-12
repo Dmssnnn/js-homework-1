@@ -55,22 +55,18 @@ const getNum = (a) => {
    // მასივის უდიდესი ციფრი
    
    const numbers = [1,4,88,99, 123,9999] ;
-   let highestNumber = 0;
-   const  largestNumber = (value) => {
-    for(let i = 0 ; i < value.length; i++){
-        if(value[i] > highestNumber){
-            highestNumber = value[i];
-        }
-    }
-    return highestNumber;
-   }
-    console.log(largestNumber(numbers))
+   function findMax(numbers) {
+    return Math.max(...numbers)
+}
+console.log((findMax(numbers)))
 
 
     // 6. გააკეთეთ იგივე ოღონდ დააბრუნეთ უმცირესი ციფრი
 
-
-    
+function findMin(arr) {
+    return Math.min(...numbers)
+}
+console.log((findMin(numbers)))
    // 7. დაწერეთ ფუნქცია რომელსაც გადასცემთ სიტყვას,
    // ფუნქციამ უნდა დააბრუნოს ამ სიტყვის შებრუნებული ვერსია,
    // მაგალითად თუ გადავცემთ someFn("ერთი"), უნდა დააბრუნოს "ითრე"
