@@ -69,16 +69,8 @@ const getNum = (a) => {
 
     // 6. გააკეთეთ იგივე ოღონდ დააბრუნეთ უმცირესი ციფრი
 
-//    let lowestNumber = 0 ;
-//    const smallestNumber = (value) => {
-//     for ( let i = 0 ; i < value.length ;i ++){
-//         if(value[i] > lowestNumber) {
-//             lowestNumber = value[i]
-//         }
-//     }
-//     return lowestNumber;
-//    }
-//    console.log(smallestNumber(numbers))
+
+    
    // 7. დაწერეთ ფუნქცია რომელსაც გადასცემთ სიტყვას,
    // ფუნქციამ უნდა დააბრუნოს ამ სიტყვის შებრუნებული ვერსია,
    // მაგალითად თუ გადავცემთ someFn("ერთი"), უნდა დააბრუნოს "ითრე"
