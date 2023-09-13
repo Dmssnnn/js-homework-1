@@ -45,7 +45,9 @@ const getNum = (a) => {
    
    objectOfCar = {year:2018, model:"500"};
    const getAgeOfCar = (objectOfCar) => {
-       return console.log(objectOfCar.year)
+    const currentYear = new Date().getFullYear();
+    const result = currentYear - objectOfCar.year
+       return console.log(result) 
    }
    getAgeOfCar(objectOfCar)
    
